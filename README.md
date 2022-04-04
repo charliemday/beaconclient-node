@@ -6,9 +6,9 @@ supercharge your Beacon integrations.
 #### How to use 
 
 ```
-import { Beacon } from 'beaconclient';
+import { BeaconClient } from 'beaconclient';
 
-const client = new Beacon('<YOUR_API_KEY>');
+const client = new BeaconClient('<YOUR_API_KEY>');
 
 client.send({
     message: 'A new user signed up!',
