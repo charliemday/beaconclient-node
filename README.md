@@ -8,7 +8,7 @@ supercharge your Beacon integrations.
 ```
 import { BeaconClient } from 'beaconclient';
 
-const client = new BeaconClient('<YOUR_API_KEY>');
+const client = new BeaconClient('<YOUR_BEACON_API_KEY>');
 
 client.send({
     message: 'A new user signed up!',
