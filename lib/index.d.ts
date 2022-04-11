@@ -1,7 +1,7 @@
 declare class BeaconClient {
     apiKey: string | null;
     url: string;
-    constructor(apiKey?: null, debug?: boolean);
+    constructor(apiKey?: string | null, debug?: boolean);
     send: (data?: {
         message: string;
         channel: string;

@@ -5,7 +5,7 @@ class BeaconClient {
   apiKey: string | null;
   url: string;
 
-  constructor(apiKey = null, debug = false) {
+  constructor(apiKey: string | null = null, debug = false) {
     this.apiKey = apiKey;
     this.url = debug
       ? "http://localhost:8000/api/ping/"
